@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: ${database.url}
+    username: ${database.user}
+    password: ${database.pass}
+    hikari:
+      poolName: Hikari
+      auto-commit: false

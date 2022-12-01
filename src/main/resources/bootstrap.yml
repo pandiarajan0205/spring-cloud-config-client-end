@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:8090
+      fail-fast: true
+      label: master
+
+  profiles:
+    active: dev
